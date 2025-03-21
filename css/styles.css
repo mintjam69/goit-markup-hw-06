@@ -124,8 +124,27 @@ body {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
 
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .paragraph {
+    font-weight: 400;
+  }
+}
 
 .button {
   display: block;
